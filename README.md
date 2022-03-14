@@ -153,6 +153,8 @@ Nesta aula, enquanto escrevemos nosso programa vamos aprender mais  ferramentas 
 
 _____________________
 
+### AULA IV -
+
 ### Array, lista e AluraFlix
 
 ## Participe e vá mais fundo
@@ -194,3 +196,88 @@ Nesta aula vamos ver a primeira delas, `array`, um tipo de *lista de elementos*,
 
 - [Repositório do código final da aula 3](https://codepen.io/imersao-dev/pen/ed0d1084a1f81286372a1ac5da0e3171)
 - [Documentação da MDN sobre arrays](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+_________________________
+
+### AULA V -
+
+### Funções no AluraFlix
+
+## Participe e vá mais fundo
+
+Na maior parte das vezes, queremos que a entrada dos nossos dados não seja apenas através do código que desenvolvemos ou pelo console, mas sim na  tela. No nosso projeto AluraFlix queremos fazer dessa mesma maneira, e  para isso utilizaremos o **input**.
+
+## Link do template:
+
+https://codepen.io/imersao-dev/pen/a72cb555357a41859dfc4999ace1283c
+
+Durante a aula de hoje, vamos *refatorar* o projeto do AluraFlix da aula anterior para continuar integrando o  HTML e o JavaScript, também fazendo com que as partes certas do programa funcionem exatamente no momento certo.
+
+Além do código executar  somente quando queremos, também vamos ver formas diferentes de usar o  JavaScript para acessar o HTML e deixar a visualização mais legal.
+
+## Acessibilidade - Aula com interpretação de libras e legenda
+
+- [Clique aqui](https://imersao.dev/aulas-libras/aula05-funcoes-aluraflix) para acessar esta aula com interpretação de libras e legenda.
+
+## Conteúdo detalhado desta aula:
+
+- Sintaxe e criação de funções no JavaScript;
+- Integrando funções criadas no JavaScript com o HTML que está sendo exibido na tela;
+- Condicionando a execução (ou "chamada") de uma função a um clique em um botão na tela;
+- Usando o JavaScript para acessar o que está sendo exibido na tela e pegar valores digitados pelo usuário com `getElementById()` e `.value`;
+- Passar informações que as funções precisam para funcionar, através dos *parâmetros*;
+- Utilizar o `.endsWith()` para verificar se um texto termina com determinados caracteres;
+- Ver mais um exemplo de reatribuição de variável para "limpar" o texto do campo com `""`.
+
+## Desafios desta aula!
+
+- Criar um botão para remover um filme na tela
+- Além de colocar a imagem do filme, também adicionar o nome por meio de outro `input`
+- Guardar todos os filmes adicionados em uma lista/array e percorrer essa lista toda vez que quiser imprimir ou remover o filme
+- Conversor de moedas: criar funções para cada tipo de conversão e chamá-las  dependendo do que você quiser fazer, podendo colocar inputs ou botões e  quando clicar chamar cada função `converteDolar()`, `converteReal()`, `converteEuro()` e `converteBitcoin()`, por exemplo
+
+## Links importantes:
+
+- [Repositório do código final da aula 4](https://codepen.io/imersao-dev/pen/6dbae513411b7f81a955216306a7cdef)
+
+
+
+__________________________
+
+### AULA VI -
+
+### Objetos e tabelas de classificação
+
+## Participe e vá mais fundo
+
+Nesta sexta aula da **Imersão Dev**, vamos criar uma tabela de classificação e aprender o que são objetos no Javascript! O código da aula para você acompanhar está aqui:
+
+https://codepen.io/imersao-dev/pen/c3ba80ae177fcded4c257015d4ce719c
+
+Neste programa, focamos em objetos no universo Javascript, criando uma tabela de classificação, onde manipulamos os valores, realizamos cálculos e  incluímos no HTML.
+
+## Acessibilidade - Aula com interpretação de libras e legenda
+
+[Clique aqui](https://imersao.dev/aulas-libras/aula06-objetos-tabelas-classificacao) para acessar esta aula com interpretação de libras e legenda.
+
+## Conteúdo detalhado desta aula
+
+- Remover o código estático do HTML;
+- Criar um objeto no Javascript para cada jogador;
+- Criar uma função que receba um objeto como parâmetro para calcular os pontos;
+- Exibir o objeto na página HTML;
+- Criar uma função para adicionar vitória, outra para adicionar empate e uma última para adicionar derrota;
+- Recalcular os pontos quando vitória ou empate for adicionado.
+
+## Desafios desta aula!
+
+- Fazer a lógica de quando houver um empate, obrigatóriamente deveria já ajustar como empate para os demais jogadores
+- Validar se todos os pontos estão fazendo sentido, tanto o número de empates,  quanto derrotas e vitórias com os demais jogadores (impossível haver  mais vitórias que derrotas, por exemplo)
+- Adicionar a imagem de cada jogador
+- Criar um botão para zerar todos os pontos
+- Criar um botão e inputs (campos de texto) para adicionar novos jogadores, com seus respectivos dados
+- Utilizar seu jogo preferido para se basear na pontuação da sua tabela de classificação
+
+## Links importantes para você acompanhar a aula
+
+- [Repositório do código final da aula 5](https://codepen.io/imersao-dev/pen/XWpWrod)
